@@ -24,7 +24,7 @@ export function MiniCard({ data }) {
             <Image source={{ uri: image?.url ?? "https://cdn2.thecatapi.com/images/HOrX5gwLS.jpg" }} style={{ ...styles.catImage, backgroundColor: colors.grey }} />
             <View style={styles.contentView}>
                 <Text style={[{ color: colors.black }, styles.catTitle]}>{name}</Text>
-                <TouchableOpacity onPress={toggleFave} >
+                <TouchableOpacity onPress={toggleFave} style={styles.link}>
                     {index ? <FilledHeart /> : <EmptyHeart />}
                 </TouchableOpacity>
             </View>
@@ -53,5 +53,9 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         flex: 1, alignItems: "center"
+    },
+    link: {
+        padding: widthPixel(10),
+        borderRadius: widthPixel(30),
     }
 })

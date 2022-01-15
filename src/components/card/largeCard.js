@@ -35,8 +35,8 @@ export function LargeCard({ data }) {
         <View style={styles.catListItems}>
             <Image source={{ uri: image?.url ?? "https://cdn2.thecatapi.com/images/HOrX5gwLS.jpg" }} style={{ ...styles.catImage, backgroundColor: colors.grey }} />
             <View style={styles.contentView}>
-                <Text style={[{ color: colors.black }, styles.catTitle]}>{name}</Text>
-                <TouchableOpacity onPress={confirmFave} >
+                <Text style={[{ color: colors.black }, styles.catTitle]} numberOfLines={1} ellipsizeMode='tail'>{name}</Text>
+                <TouchableOpacity onPress={confirmFave} style={styles.link}>
                     {index ? <FilledHeart /> : <EmptyHeart />}
                 </TouchableOpacity>
             </View>
@@ -56,7 +56,8 @@ const styles = StyleSheet.create({
     catTitle: {
         paddingVertical: heightPixel(15),
         fontSize: fontPixel(12),
-        fontWeight: "400"
+        fontWeight: "400",
+        marginLeft: widthPixel(10),
     },
     catListItems: {
         flexDirection: "column",
@@ -69,5 +70,9 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "center",
         width: widthPixel(150),
+    },
+    link: {
+        padding: widthPixel(10),
+        borderRadius: widthPixel(30),
     }
 });
