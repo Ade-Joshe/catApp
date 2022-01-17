@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "column",
+      "justifyContent": "space-between",
+      "marginVertical": 17,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://cdn2.thecatapi.com/images/mj.jpg",
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#d3d3d4",
+        "borderColor": "#d3d3d490",
+        "borderRadius": 20,
+        "borderWidth": 1,
+        "height": 300,
+        "resizeMode": "cover",
+        "width": 300,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": 300,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#212227",
+          },
+          Object {
+            "fontSize": 24,
+            "fontWeight": "400",
+            "marginLeft": 20,
+            "paddingVertical": 25,
+          },
+        ]
+      }
+    >
+      Bengal
+    </Text>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "borderRadius": 60,
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+      testID="favourite-btn"
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight="18"
+        bbWidth="18"
+        fill="none"
+        focusable={false}
+        height="18"
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 18,
+              "width": 18,
+            },
+          ]
+        }
+        vbHeight={18}
+        vbWidth={18}
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M15.63 3.458a4.124 4.124 0 00-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 002.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.124 4.124 0 000-5.835z"
+            fill={4292739586}
+            propList={
+              Array [
+                "fill",
+                "stroke",
+                "strokeWidth",
+                "strokeLinecap",
+                "strokeLinejoin",
+              ]
+            }
+            stroke={4292739586}
+            strokeLinecap={1}
+            strokeLinejoin={1}
+            strokeWidth="1.5"
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`snapshot testing for default loading 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "column",
+      "justifyContent": "space-between",
+      "marginVertical": 17,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://cdn2.thecatapi.com/images/mj.jpg",
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#d3d3d4",
+        "borderColor": "#d3d3d490",
+        "borderRadius": 20,
+        "borderWidth": 1,
+        "height": 300,
+        "resizeMode": "cover",
+        "width": 300,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": 300,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#212227",
+          },
+          Object {
+            "fontSize": 24,
+            "fontWeight": "400",
+            "marginLeft": 20,
+            "paddingVertical": 25,
+          },
+        ]
+      }
+    >
+      Bengal
+    </Text>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "borderRadius": 60,
+          "opacity": 1,
+          "padding": 20,
+        }
+      }
+      testID="favourite-btn"
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight="18"
+        bbWidth="18"
+        fill="none"
+        focusable={false}
+        height="18"
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 18,
+              "width": 18,
+            },
+          ]
+        }
+        vbHeight={18}
+        vbWidth={18}
+        width="18"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M15.63 3.458a4.125 4.125 0 00-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 002.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 000-5.835v0z"
+            opacity={0.3}
+            propList={
+              Array [
+                "stroke",
+                "strokeWidth",
+                "strokeLinecap",
+                "strokeLinejoin",
+              ]
+            }
+            stroke={4280361511}
+            strokeLinecap={1}
+            strokeLinejoin={1}
+            strokeWidth="1.5"
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;

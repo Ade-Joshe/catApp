@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing for matching 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontSize": 32,
+        "fontWeight": "600",
+        "marginVertical": 41,
+      },
+      Object {
+        "color": "#212227",
+      },
+    ]
+  }
+/>
+`;

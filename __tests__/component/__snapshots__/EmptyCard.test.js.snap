@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing for matching emptyFav 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#21222790",
+        "fontSize": 25,
+        "marginTop": "40%",
+        "marginVertical": 17,
+      }
+    }
+  >
+    We keep your favouites here
+  </Text>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="18"
+    bbWidth="18"
+    fill="none"
+    focusable={false}
+    height="18"
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 18,
+          "width": 18,
+        },
+      ]
+    }
+    vbHeight={18}
+    vbWidth={18}
+    width="18"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <RNSVGGroup
+      fill={null}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M15.63 3.458a4.124 4.124 0 00-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 002.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.124 4.124 0 000-5.835z"
+        fill={4292739586}
+        propList={
+          Array [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeLinecap",
+            "strokeLinejoin",
+          ]
+        }
+        stroke={4292739586}
+        strokeLinecap={1}
+        strokeLinejoin={1}
+        strokeWidth="1.5"
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`snapshot testing for matching error 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#212227",
+        "fontSize": 25,
+        "marginTop": "40%",
+        "marginVertical": 17,
+      }
+    }
+  >
+    No data found!
+  </Text>
+</View>
+`;
+
+exports[`snapshot testing for matching loading 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    size={60}
+    style={
+      Object {
+        "marginTop": "40%",
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#212227",
+        "fontSize": 25,
+        "marginVertical": 17,
+      }
+    }
+  >
+    Loading...
+  </Text>
+</View>
+`;
