@@ -36,7 +36,7 @@ export function LargeCard({ data }) {
             <Image source={{ uri: image?.url ?? "https://cdn2.thecatapi.com/images/HOrX5gwLS.jpg" }} style={{ ...styles.catImage, backgroundColor: colors.grey }} />
             <View style={styles.contentView}>
                 <Text style={[{ color: colors.black }, styles.catTitle]} numberOfLines={1} ellipsizeMode='tail'>{name}</Text>
-                <TouchableOpacity onPress={confirmFave} style={styles.link}>
+                <TouchableOpacity onPress={confirmFave} style={styles.link} testID='favourite-btn'>
                     {index ? <FilledHeart /> : <EmptyHeart />}
                 </TouchableOpacity>
             </View>

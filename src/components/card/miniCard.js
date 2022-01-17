@@ -24,7 +24,7 @@ export function MiniCard({ data }) {
             <Image source={{ uri: image?.url ?? "https://cdn2.thecatapi.com/images/HOrX5gwLS.jpg" }} style={{ ...styles.catImage, backgroundColor: colors.grey }} />
             <View style={styles.contentView}>
                 <Text style={[{ color: colors.black }, styles.catTitle]}>{name}</Text>
-                <TouchableOpacity onPress={toggleFave} style={styles.link}>
+                <TouchableOpacity onPress={toggleFave} style={styles.link} testID='favourite-btn'>
                     {index ? <FilledHeart /> : <EmptyHeart />}
                 </TouchableOpacity>
             </View>
